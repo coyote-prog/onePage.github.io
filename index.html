@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#!" aria-label="logo">
+          <svg class="logo-icon-box" width="39" height="50" viewBox="0 0 39 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_1_426)">
+              <path
+                d="M32.5 0.213003C31.8562 0.413504 30.0486 2.06764 25.5171 6.65411L19.4009 12.7945L18.3362 11.817C17.7419 11.2656 15.2162 8.70924 12.6905 6.12779C8.01046 1.31576 6.84665 0.438566 5.23713 0.438566C4.07332 0.463629 2.4638 1.24057 1.86951 2.0927C0.95332 3.39596 0.804749 4.59897 0.804749 10.8145V16.8045L4.32094 20.4135C6.25237 22.3935 7.93618 23.9975 8.03522 23.9975C8.13427 23.9975 8.23332 21.391 8.23332 18.2331C8.23332 15.0501 8.30761 12.4686 8.43142 12.4686C8.53046 12.4686 10.9819 14.8997 13.9038 17.8571C18.0638 22.0676 19.3019 23.1704 19.599 22.995C19.8219 22.8696 22.3228 20.3884 25.1952 17.5062C28.0428 14.599 30.4695 12.218 30.5686 12.218C30.6676 12.218 30.7914 14.8245 30.8162 17.9824L30.8905 23.7719L34.5305 20.1128L38.1457 16.4285L38.1705 10.4386C38.1952 6.85461 38.1209 4.04759 37.9476 3.47115C37.3038 1.01501 34.8028 -0.46369 32.5 0.213003Z"
+                fill="#31AFF5" />
+              <path
+                d="M28.5876 30.3383L19.3762 39.6616L10.2638 30.4386C5.26189 25.3759 1.07713 21.2406 0.978082 21.2406C0.879034 21.2406 0.804749 23.5213 0.804749 26.3283L0.82951 31.4411L10.0657 40.7644L19.2771 50.0877L28.7362 40.4887L38.1952 30.8897V26.0777C38.1952 23.4461 38.0962 21.2155 37.9971 21.1403C37.8733 21.0652 33.639 25.2256 28.5876 30.3383Z"
+                fill="#31AFF5" />
+            </g>
+            <defs>
+              <clipPath id="clip0_1_426">
+                <rect width="39" height="50" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+
+        </a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">О нас</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="top">
+      <div class="container">
+        <div class="top__inner">
+          <div class="top__content">
+            <h1 class="title">
+              Сервис для быстрого поиска исполнителей для нетипичных задач.
+            </h1>
+            <p class="top__text">
+              Если нужно починить стиралку, заштукатурить стену, искупать кота 😉
+            </p>
+            <p class="top__text">
+              Тогда можете смело создавать задание и по откликам найти подходящего исполнителя уже сегодня!
+            </p>
+
+            <form class="top__form">
+              <label class="top__form-title" for="top__tel">
+                Отправим Вам ссылку на телефон
+              </label>
+
+              <div class="top__form-content">
+                <input class="top__form-input" type="tel" name="top__tel" id="top__tel" placeholder="Номер телефона"
+                  required>
+                <button class="top__form-btn" type="submit">
+                  Получить ссылку
+                </button>
+              </div>
+            </form>
+
+            <div class="top__apps">
+              <h3 class="top__apps-title">Или можете скачать приложение</h3>
+              <div class="top__apps-content">
+
+                <a class="top__apps-link" href="#!" aria-label="app-store">
+
+                  <picture class="top__apps-image-box">
+                    <source type="image/avif" srcset="./images/appstore.avif 1x,  ./images/appstore@2x.avif 2x">
+                    <source type="image/webp" srcset="./images/appstore.webp 1x,  ./images/appstore@2x.webp 2x">
+                    <img class="top__apps-img" src="./images/appstore.png" srcset="./images/appstore@2x.png 2x"
+                      width="112" height="32" loading="lazy" alt="appstore">
+                  </picture>
+                </a>
+
+                <a class="top__apps-link" href="#!" aria-label="google play">
+                  <picture class="top__apps-image-box">
+                    <source type="image/avif" srcset="./images/googleplay.avif 1x, ./images/googleplay@2x.avif 2x">
+                    <source type="image/webp" srcset="./images/googleplay.webp 1x,  ./images/googleplay@2x.webp 2x">
+                    <img class="top__apps-img" src="./images/appstore.png.png"
+                      srcset="./images/googleplay@2x.png.png 2x" width="112" height="32" loading="lazy"
+                      alt="googleplay">
+                  </picture>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="top__picture">
+            <picture class="top__image-box">
+              <source type="image/avif" srcset="./images/top-phone.avif 1x, ./images/top-phone@2x.avif 2x">
+              <source type="image/webp" srcset="./images/top-phone.webp 1x, ./images/top-phone@2x.webp 2x">
+              <img class="top__img" src="./images/top-phone.png" srcset="./images/top-phone@2x.png  2x" width="416"
+                height="768" alt="mobile phone">
+            </picture>
+          </div>
+        </div>
+
+        <div class="top__socials">
+          <h3 class="top__socials-title">
+            Мы в соцсетях
+          </h3>
+          <a class="socials__link" href="#!" aria-label="vkontakte">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="30" height="30" rx="15" fill="#0077FF" />
+              <path
+                d="M15.7369 20.25C10.0995 20.25 6.88398 16.3086 6.75 9.75H9.57386C9.66661 14.5638 11.7484 16.6029 13.3974 17.0233V9.75H16.0564V13.9017C17.6847 13.723 19.3955 11.8311 19.9727 9.75H22.6316C22.4142 10.8293 21.9806 11.8512 21.3582 12.7519C20.7358 13.6525 19.9378 14.4125 19.0142 14.9842C20.0452 15.5067 20.9557 16.2461 21.6859 17.1538C22.416 18.0615 22.9491 19.1168 23.25 20.25H20.3231C20.053 19.2657 19.504 18.3846 18.745 17.7171C17.986 17.0496 17.0507 16.6255 16.0564 16.4977V20.25H15.7369V20.25Z"
+                fill="white" />
+            </svg>
+          </a>
+
+          <a class="socials__link" href="#!" aria-label="vkontakte">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="30" height="30" rx="15" fill="#27A6E5" />
+              <path
+                d="M21 9.45167L18.7459 21.2192C18.7459 21.2192 18.4306 22.0351 17.5642 21.6438L12.3634 17.5144L12.3393 17.5023C13.0418 16.849 18.4893 11.777 18.7274 11.5471C19.0959 11.191 18.8671 10.979 18.4392 11.248L10.3926 16.5397L7.28823 15.4581C7.28823 15.4581 6.79969 15.2781 6.75269 14.8868C6.70508 14.4949 7.30431 14.2829 7.30431 14.2829L19.9599 9.14171C19.9599 9.14171 21 8.66845 21 9.45167Z"
+                fill="#FEFEFE" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
